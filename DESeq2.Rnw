@@ -1,0 +1,16 @@
+\documentclass{article}
+
+\begin{document}
+
+<<>>=
+#if (!requireNamespace("BiocManager", quietly = TRUE)) 
+#install.packages("BiocManager")
+#BiocManager::install("DESeq2")
+#BiocManager::install('EnhancedVolcano')
+
+library("DESeq2")
+
+@
+
+
+\end{document}
