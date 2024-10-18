@@ -1,6 +1,5 @@
 # Detailed project workflow
-## This is where I will keep careful track of my project workflow. 
-## This is using the markdown file
+## This is the flow of an NGS analysis. Actual code examples are in scripts folder.
 This is the flow of an NGS analysis:
 
 1. Get your FASTQC file from your sequencing analysis. FASTQC performs quality checks on data to detect any possible problems.
