@@ -19,12 +19,12 @@ This is the flow of an NGS analysis:
   - Phred score will tell you the base call accurancy/probability of incorrect base.
 2. Clean your FASTQC files with trimmomatic
   - Commonly used commands are….
-      LEADING:10 cut bases at beggining of read if below a specified quality threshold
-      TRAILING:10 cut bases at end of read if below specified quality threshold
-      HEADCROP:6 cuts the specified number of bases from the start of the read 
-      SLIDINGWINDOW:4:15 cut when average quality within the window falls below a threshold 
-      ILLUMINACLIP:adapters_file.fa:2:30:10 Remove Illumina adapters (reference adapters in fasta)
-      MINLEN:75 remove the read if it is below a specified length
+  - 	LEADING:10 cut bases at beggining of read if below a specified quality threshold
+  - 	 RAILING:10 cut bases at end of read if below specified quality threshold
+  - 	 ADCROP:6 cuts the specified number of bases from the start of the read
+  - 	 SLIDINGWINDOW:4:15 cut when average quality within the window falls below a threshold
+  - 	 LLUMINACLIP:adapters_file.fa:2:30:10 Remove Illumina adapters (reference adapters in fasta)
+  - 	 INLEN:75 remove the read if it is below a specified length
 3. Genome sequencing & assembly
 
  
