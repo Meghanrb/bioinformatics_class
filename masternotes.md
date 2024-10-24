@@ -25,6 +25,11 @@ This is the flow of an NGS analysis:
   - 	 SLIDINGWINDOW:4:15 cut when average quality within the window falls below a threshold
   - 	 LLUMINACLIP:adapters_file.fa:2:30:10 Remove Illumina adapters (reference adapters in fasta)
   - 	 INLEN:75 remove the read if it is below a specified length
-3. Genome sequencing & assembly
+Genome analysis:
+<img width="986" alt="Screen Shot 2024-10-24 at 8 58 52 AM" src="https://github.com/user-attachments/assets/c2f22aaa-d0db-46f1-987e-9e060d9eb29d">
+1. Genome fasta (.fna files) --> nucleotides
+2. Annotated genome (.gff files).
+3. Bedtools --> takes smaller .gff files and the genome fasta and creates a small fasta seperated from the way the .gff file is seperated.
 
  
+![IMG_9280](https://github.com/user-attachments/assets/f7efbb48-428e-419b-805b-ed3786e999b6)
