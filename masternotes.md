@@ -2,6 +2,8 @@
 ## This is the flow of an NGS analysis. Actual code examples are in scripts folder.
 This is the flow of an NGS analysis:
 
+![IMG_9280](https://github.com/user-attachments/assets/f7efbb48-428e-419b-805b-ed3786e999b6)
+
 1. Get your FASTQC file from your sequencing analysis. FASTQC performs quality checks on data to detect any possible problems.
    - Example: <img width="642" alt="Screen Shot 2024-10-18 at 7 38 46 AM" src="https://github.com/user-attachments/assets/f5361328-b28a-49c4-a35a-cc508b5a62c1">  ![image](https://github.com/user-attachments/assets/b2d7f028-66bb-41e7-bb52-e1e224b76f8d)
    - Header Information:
@@ -32,4 +34,4 @@ Genome analysis:
 3. Bedtools --> takes smaller .gff files and the genome fasta and creates a small fasta seperated from the way the .gff file is seperated.
 
  
-![IMG_9280](https://github.com/user-attachments/assets/f7efbb48-428e-419b-805b-ed3786e999b6)
+
