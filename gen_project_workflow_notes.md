@@ -26,7 +26,7 @@ This is the flow of an NGS analysis:
   - 	 HEADCROP:6 cuts the specified number of bases from the start of the read
   - 	 SLIDINGWINDOW:4:15 cut when average quality within the window falls below a threshold
   - 	 ILLUMINACLIP:adapters_file.fa:2:30:10 Remove Illumina adapters (reference adapters in fasta)
-  - 	 INLEN:75 remove the read if it is below a specified length
+  - 	 MINLEN:75 remove the read if it is below a specified length
 Genome analysis:
 <img width="986" alt="Screen Shot 2024-10-24 at 8 58 52 AM" src="https://github.com/user-attachments/assets/c2f22aaa-d0db-46f1-987e-9e060d9eb29d">
 1. Genome fasta (.fna files) --> nucleotides
