@@ -33,5 +33,11 @@ Genome analysis:
 2. Annotated genome (.gff files).
 3. Bedtools --> takes smaller .gff files and the genome fasta and creates a small fasta seperated from the way the .gff file is seperated.
 
+RNA-seq:
+1. Map (align) reads to reference (Bowtie2) -> sam/bam file
+2. Count Reads per gene model (HTseq)
+3. Differential expression analysis (DEseq2 in R)
+4. Gene Ontology Enrichment Analysis
+
  
 
